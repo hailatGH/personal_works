@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS_Portal | Adminstrator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="compose.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bxs-conversation'></i>
+            <span class="logo_name">SMS_Portal</span>
+        </div>
+        <hr>
+        <ul class="nav-links">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="link_name">Dashboard</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Dashboard</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bx-plus-medical pop'></i>
+                        <span class="link_name pop">Compose</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Compose</a></li>
+                    <li><a class="sub_link" href="#">Single</a></li>
+                    <li><a class="sub_link" href="#">Bulk</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-inbox'></i>
+                    <span class="link_name">Inbox</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Inbox</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-send'></i>
+                    <span class="link_name">Sent</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Sent</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-alt-check'></i>
+                    <span class="link_name">Delivered</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Delivered</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-alt-x'></i>
+                    <span class="link_name">Failed</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Failed</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-alt-edit'></i>
+                    <span class="link_name">Drafts</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Drafts</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bxs-contact pop'></i>
+                        <span class="link_name pop">Contacts</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Contacts</a></li>
+                    <li><a class="sub_link" href="#">Create New</a></li>
+                    <li><a class="sub_link" href="#">Show All</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class='bx bxs-group pop'></i>
+                        <span class="link_name pop">Groups</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">Groups</a></li>
+                    <li><a class="sub_link" href="#">Create New</a></li>
+                    <li><a class="sub_link" href="#">Show All</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-trash-alt'></i>
+                    <span class="link_name">Trash</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Trash</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cog'></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+            <li>
+        </ul>
+    </div>
+
+    <div class="body">
+        <div class="row sticky topnav">
+            <div class="col align-self-center">
+                <i class='bx bxs-chevron-left menu'></i>
+                <span class="page_title">SMS Portal</span>
+            </div>
+            <div class="col-4 col-md-2 col-lg-1 align-self-center">
+                <div class="row justify-content-end">
+                    <img src="profile.jpg" class="profile_image" alt="" srcset="">
+                </div>
+            </div>
+            <div class="col col-lg-2 col-md-3 align-self-center profile">
+                <div class="row profile_name">Hailemichael Atrsaw</div>
+                <div class="row profile_title">CTO GAMD Solutions</div>
+            </div>
+        </div>
+        <div class="row home_section">
+            <!-- START -->
+            <div class="card compose">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <h3>Compose Single Message</h3>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">TO</label>
+                    <input type="tel" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Subject</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="" rows="6"></textarea>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-success mb-3">Send</button>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-danger mb-3">Cancel</button>
+                    </div>
+                </div>
+            </div>
+            <!-- END -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
